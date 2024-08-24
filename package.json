@@ -1,0 +1,31 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build:prod": "webpack --env mode=production",
+    "start": "webpack serve",
+    "lint": "eslint .",
+    "babel": "babel src -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "css-loader": "^7.1.2",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "core-js": "^3.38.1"
+  }
+}
