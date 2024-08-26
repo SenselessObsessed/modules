@@ -7,8 +7,8 @@ module.exports = (env) => {
             mode: env.mode ?? 'development',
             entry: path.resolve(__dirname, 'src', 'index.js'),
             output: {
-                path: path.resolve(__dirname, './bundle'),
-                filename: 'bundle.js',
+                path: path.resolve(__dirname, './dist'),
+                filename: 'main.js',
                 clean: true
             },
             plugins: [
